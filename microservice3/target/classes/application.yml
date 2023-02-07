@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: microservice3
-
-server:
-  port: 8082
-
-logging:
-  file: C:/Users/NHI278/spring-cloud-sleuth-zipkin/microservice3/microservice3.log
