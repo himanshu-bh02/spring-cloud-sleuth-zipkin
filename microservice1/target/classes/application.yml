@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: microservice1
-
-server:
-  port: 8080
-
-logging:
-  file: C:/Users/NHI278/spring-cloud-sleuth-zipkin/microservice1/microservice1.log
