@@ -1,0 +1,19 @@
+2023-01-20 10:43:19.170  INFO [microservice3,,,] 9140 --- [main] com.javainuse.Microservice3Application   : No active profile set, falling back to default profiles: default
+2023-01-20 10:43:19.859  INFO [microservice3,,,] 9140 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4209df29-4d52-3ae9-9715-1245576acaad
+2023-01-20 10:43:20.123  INFO [microservice3,,,] 9140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7efbd387] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-20 10:43:20.566  INFO [microservice3,,,] 9140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-01-20 10:43:20.598  INFO [microservice3,,,] 9140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 10:43:20.598  INFO [microservice3,,,] 9140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-01-20 10:43:20.778  INFO [microservice3,,,] 9140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 10:43:20.779  INFO [microservice3,,,] 9140 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1581 ms
+2023-01-20 10:43:21.832  INFO [microservice3,,,] 9140 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-20 10:43:22.965  INFO [microservice3,,,] 9140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-20 10:43:22.969  INFO [microservice3,,,] 9140 --- [main] com.javainuse.Microservice3Application   : Started Microservice3Application in 5.469 seconds (JVM running for 6.07)
+2023-01-20 11:40:58.718  INFO [microservice3,,,] 9140 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 11:40:58.728  INFO [microservice3,,,] 9140 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-20 11:40:58.974  INFO [microservice3,,,] 9140 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 244 ms
+2023-01-20 11:40:59.088  INFO [microservice3,ba687f68b55195a6,f96f81d1c4d0685b,true] 9140 --- [http-nio-8082-exec-1] ication$$EnhancerBySpringCGLIB$$e724a998 : Inside method3
+2023-01-20 11:41:01.055  INFO [microservice3,ba687f68b55195a6,f96f81d1c4d0685b,true] 9140 --- [http-nio-8082-exec-1] ication$$EnhancerBySpringCGLIB$$e724a998 : The response recieved by method3 is Hello World JavaInUse
+2023-01-20 12:01:39.816  INFO [microservice3,a70eb659a7aad74d,7322e3cc0bef35d9,true] 9140 --- [http-nio-8082-exec-3] ication$$EnhancerBySpringCGLIB$$e724a998 : Inside method3
+2023-01-20 12:01:40.975  INFO [microservice3,a70eb659a7aad74d,7322e3cc0bef35d9,true] 9140 --- [http-nio-8082-exec-3] ication$$EnhancerBySpringCGLIB$$e724a998 : The response recieved by method3 is Hello World JavaInUse
+2023-01-20 12:11:48.682  INFO [microservice3,,,] 9140 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

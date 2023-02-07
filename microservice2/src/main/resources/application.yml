@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservice2
+
+server:
+  port: 8081
+
+logging:
+  file: C:/Users/NHI278/spring-cloud-sleuth-zipkin/microservice2/microservice2.log

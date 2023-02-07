@@ -1,0 +1,17 @@
+2023-01-20 10:43:24.819  INFO [microservice4,,,] 14944 --- [main] com.javainuse.Microservice4Application   : No active profile set, falling back to default profiles: default
+2023-01-20 10:43:25.426  INFO [microservice4,,,] 14944 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cd2d384e-8ee9-382d-8da7-5c1d66480ae9
+2023-01-20 10:43:25.646  INFO [microservice4,,,] 14944 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4cd47ce4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-20 10:43:26.089  INFO [microservice4,,,] 14944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-01-20 10:43:26.119  INFO [microservice4,,,] 14944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 10:43:26.120  INFO [microservice4,,,] 14944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-01-20 10:43:26.275  INFO [microservice4,,,] 14944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 10:43:26.275  INFO [microservice4,,,] 14944 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1439 ms
+2023-01-20 10:43:26.788  INFO [microservice4,,,] 14944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-20 10:43:27.452  INFO [microservice4,,,] 14944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2023-01-20 10:43:27.455  INFO [microservice4,,,] 14944 --- [main] com.javainuse.Microservice4Application   : Started Microservice4Application in 3.789 seconds (JVM running for 4.498)
+2023-01-20 11:41:00.720  INFO [microservice4,,,] 14944 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 11:41:00.726  INFO [microservice4,,,] 14944 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-20 11:41:00.835  INFO [microservice4,,,] 14944 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 109 ms
+2023-01-20 11:41:00.960  INFO [microservice4,ba687f68b55195a6,e97093be26fd5228,true] 14944 --- [http-nio-8083-exec-1] ication$$EnhancerBySpringCGLIB$$e58d2134 : Inside method4
+2023-01-20 12:01:40.939  INFO [microservice4,a70eb659a7aad74d,7068ad4ff67a2d85,true] 14944 --- [http-nio-8083-exec-2] ication$$EnhancerBySpringCGLIB$$e58d2134 : Inside method4
+2023-01-20 12:11:59.921  INFO [microservice4,,,] 14944 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

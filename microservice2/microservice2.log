@@ -1,0 +1,19 @@
+2023-01-20 10:43:11.643  INFO [microservice2,,,] 4512 --- [main] com.javainuse.Microservice2Application   : No active profile set, falling back to default profiles: default
+2023-01-20 10:43:12.221  INFO [microservice2,,,] 4512 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5e0261b4-d62d-33c2-abbb-07448e49b01c
+2023-01-20 10:43:12.423  INFO [microservice2,,,] 4512 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6fc9bdae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-20 10:43:13.211  INFO [microservice2,,,] 4512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-01-20 10:43:13.257  INFO [microservice2,,,] 4512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 10:43:13.257  INFO [microservice2,,,] 4512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-01-20 10:43:13.492  INFO [microservice2,,,] 4512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 10:43:13.493  INFO [microservice2,,,] 4512 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1834 ms
+2023-01-20 10:43:14.186  INFO [microservice2,,,] 4512 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-20 10:43:15.010  INFO [microservice2,,,] 4512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-20 10:43:15.013  INFO [microservice2,,,] 4512 --- [main] com.javainuse.Microservice2Application   : Started Microservice2Application in 5.0 seconds (JVM running for 5.577)
+2023-01-20 11:40:57.578  INFO [microservice2,,,] 4512 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-20 11:40:57.589  INFO [microservice2,,,] 4512 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-20 11:40:57.765  INFO [microservice2,,,] 4512 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 176 ms
+2023-01-20 11:40:57.863  INFO [microservice2,ba687f68b55195a6,54cefbdcfb052962,true] 4512 --- [http-nio-8081-exec-1] ication$$EnhancerBySpringCGLIB$$a762c580 : Inside method2
+2023-01-20 11:41:01.104  INFO [microservice2,ba687f68b55195a6,54cefbdcfb052962,true] 4512 --- [http-nio-8081-exec-1] ication$$EnhancerBySpringCGLIB$$a762c580 : The response recieved by method2 is Hello World JavaInUse
+2023-01-20 12:01:39.693  INFO [microservice2,a70eb659a7aad74d,76e6786eca38b590,true] 4512 --- [http-nio-8081-exec-4] ication$$EnhancerBySpringCGLIB$$a762c580 : Inside method2
+2023-01-20 12:01:40.992  INFO [microservice2,a70eb659a7aad74d,76e6786eca38b590,true] 4512 --- [http-nio-8081-exec-4] ication$$EnhancerBySpringCGLIB$$a762c580 : The response recieved by method2 is Hello World JavaInUse
+2023-01-20 12:11:43.144  INFO [microservice2,,,] 4512 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
